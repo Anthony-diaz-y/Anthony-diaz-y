@@ -1,7 +1,7 @@
 """Genera los SVG del perfil: banner, tarjetas de proyectos y línea de tiempo.
 
 Uso:  python scripts/build_cards.py
-Salida: assets/banner.svg, assets/card-*.svg, assets/timeline.svg
+Salida: assets/banner-dev.svg, assets/card-*.svg, assets/timeline.svg
 
 Reglas:
 - Paleta sobria (grises de GitHub) y un único acento verde para "en vivo / hoy".
@@ -280,27 +280,42 @@ def timeline_svg() -> str:
 # ───────────────────────────── Banner ─────────────────────────────
 
 def banner_svg() -> str:
+    """Banner con el resaltado de sintaxis del tema oscuro de GitHub (apagado)."""
     W, H = 1200, 260
-    k, s, c = MUTED, SOFT, "#a5b1bd"
+    KW, FN, KEY, STR, PUN = "#ff7b72", "#d2a8ff", "#79c0ff", "#a5d6ff", MUTED
+    t = lambda col, txt: f'<tspan fill="{col}">{txt}</tspan>'
+    q = lambda txt: t(STR, f'"{txt}"')
     code = [
-        (24, 64, f'<tspan fill="{k}">const</tspan><tspan fill="{TXT}"> anthony = {{</tspan>'),
-        (44, 90, f'<tspan fill="{s}">stack</tspan><tspan fill="{DIM}">: [</tspan><tspan fill="{c}">"Next.js"</tspan><tspan fill="{DIM}">, </tspan><tspan fill="{c}">"NestJS"</tspan><tspan fill="{DIM}">],</tspan>'),
-        (44, 116, f'<tspan fill="{s}">data</tspan><tspan fill="{DIM}">: </tspan><tspan fill="{c}">"PostgreSQL"</tspan><tspan fill="{DIM}">,</tspan>'),
-        (44, 142, f'<tspan fill="{s}">learning</tspan><tspan fill="{DIM}">: [</tspan><tspan fill="{c}">"Java"</tspan><tspan fill="{DIM}">, </tspan><tspan fill="{c}">"Go"</tspan><tspan fill="{DIM}">],</tspan>'),
-        (24, 166, f'<tspan fill="{TXT}">}};</tspan><tspan class="cursor" fill="{ACCENT}"> ▍</tspan>'),
+        (0, t(DIM, "// lima, perú · disponible")),
+        (0, t(KW, "const ") + t(FN, "anthony") + t(PUN, " = {")),
+        (1, t(KEY, "stack") + t(PUN, ": [") + q("Next.js") + t(PUN, ", ") + q("NestJS") + t(PUN, "],")),
+        (1, t(KEY, "data") + t(PUN, ": ") + q("PostgreSQL") + t(PUN, ",")),
+        (1, t(KEY, "learning") + t(PUN, ": [") + q("Java") + t(PUN, ", ") + q("Go") + t(PUN, "],")),
+        (0, t(PUN, "};") + f'<tspan class="cursor" fill="{ACCENT}"> ▍</tspan>'),
     ]
-    lines = "".join(f'<text x="{x}" y="{y}" class="code">{t}</text>' for x, y, t in code)
+    lines = "".join(
+        f'<text x="20" y="{70 + i * 22}" class="code" fill="{FAINT}" text-anchor="end" font-size="12">{i + 1}</text>'
+        f'<text x="{36 + ind * 20}" y="{70 + i * 22}" class="code">{txt}</text>'
+        for i, (ind, txt) in enumerate(code)
+    )
+    rule = "".join(
+        f'<rect x="{64 + i * 30}" y="214" width="24" height="3" rx="1.5" fill="{col}" fill-opacity="0.8"/>'
+        for i, col in enumerate((KW, KEY, FN, ACCENT))
+    )
     body = f"""
-  <text x="64" y="92" font-family="{MONO}" font-size="14" letter-spacing="3" fill="{DIM}">FULL STACK DEVELOPER</text>
+  <text x="64" y="92" font-family="{MONO}" font-size="14" letter-spacing="2" fill="{DIM}"><tspan fill="{ACCENT}">❯</tspan> <tspan fill="{KEY}" fill-opacity="0.85">full stack</tspan> developer</text>
   <text x="62" y="154" font-family="{SANS}" font-size="56" font-weight="700" letter-spacing="-1.2" fill="{TXT}">Anthony Díaz</text>
-  <text x="64" y="194" font-family="{SANS}" font-size="18" fill="{MUTED}">Del modelo de datos a una interfaz clara · Lima, Perú</text>
-  <g transform="translate(772 35)">
-    <rect width="372" height="190" rx="10" fill="{SURF}" stroke="{BORDER}"/>
-    <circle cx="22" cy="22" r="5" fill="{BORDER}"/><circle cx="40" cy="22" r="5" fill="{BORDER}"/><circle cx="58" cy="22" r="5" fill="{BORDER}"/>
+  <text x="64" y="190" font-family="{SANS}" font-size="18" fill="{MUTED}">Del modelo de datos a una interfaz clara</text>
+  {rule}
+  <g transform="translate(772 30)">
+    <rect width="372" height="200" rx="10" fill="{SURF}" stroke="{BORDER}"/>
+    <path d="M0.5 36H371.5" stroke="{LINE}"/>
+    <circle cx="20" cy="18" r="5" fill="#f85149" fill-opacity="0.75"/><circle cx="38" cy="18" r="5" fill="#d29922" fill-opacity="0.75"/><circle cx="56" cy="18" r="5" fill="{ACCENT}" fill-opacity="0.75"/>
+    <text x="352" y="22" text-anchor="end" font-family="{MONO}" font-size="11" fill="{DIM}">anthony.ts</text>
     {lines}
   </g>"""
     css = f"""
-      .code{{font:400 14.5px {MONO}}}
+      .code{{font:400 14px {MONO}}}
       .cursor{{animation:blink 1.1s steps(1) infinite}}
       @keyframes blink{{50%{{opacity:0}}}}"""
     return frame(W, H, body, css=css, label="Anthony Díaz — Full Stack Developer")
@@ -310,7 +325,7 @@ def main() -> None:
     for p in PROJECTS:
         (ASSETS / f"card-{p['file']}.svg").write_text(project_svg(p), encoding="utf-8")
     (ASSETS / "timeline.svg").write_text(timeline_svg(), encoding="utf-8")
-    (ASSETS / "banner.svg").write_text(banner_svg(), encoding="utf-8")
+    (ASSETS / "banner-dev.svg").write_text(banner_svg(), encoding="utf-8")
     print("ok")
 
 
