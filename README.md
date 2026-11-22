@@ -46,73 +46,33 @@ Vengo de la **Ingeniería Industrial**, así que pienso en procesos: entiendo el
 
 ## 🚀 Proyectos destacados
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛡️ <a href="https://github.com/Anthony-diaz-y/cra-desk">CRA Desk</a></h3>
-      <p>SaaS de cumplimiento del <b>EU Cyber Resilience Act</b> para fabricantes IoT/firmware: ingesta de SBOM CycloneDX, monitoreo de vulnerabilidades (OSV + CISA KEV), relojes de reporte 24h/72h/14d, borradores asistidos por IA y audit log con cadena de hashes.</p>
-      <p><b>+300 tests</b> · CLI en Go + GitHub Action · CSP estricta</p>
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-      <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-    </td>
-    <td width="50%" valign="top">
-      <h3>📈 <a href="https://github.com/Anthony-diaz-y/vigia">Vigía</a></h3>
-      <p>Ingesta, análisis y <b>pronóstico de corto plazo</b> para datos de vigilancia epidemiológica del Perú (dengue primero, multi-enfermedad por diseño). Convierte exportaciones CSV/XLSX desordenadas en un dataset validado, gráficos interactivos y forecasts con precisión medida.</p>
-      <p>Monorepo TypeScript end-to-end · contratos zod compartidos</p>
-      <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-      <img src="https://img.shields.io/badge/TypeORM-FE0803?style=flat-square&logo=typeorm&logoColor=white" />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>☕ <a href="https://www.inkari.shop/">Inkari Café</a></h3>
-      <p>E-commerce de café <b>en producción</b> con panel administrativo para productos, pedidos y contenido, más alertas para el control operativo.</p>
-      <p><a href="https://www.inkari.shop/">🔗 Ver sitio</a> · <a href="https://github.com/Anthony-diaz-y/inkari">Código</a></p>
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
-      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎓 <a href="https://cem-iota.vercel.app">CEM eLearning</a></h3>
-      <p>Plataforma de e-learning con módulos por dominio (auth, cursos, admin, instructor). Modelé la base de datos relacional y la lógica de negocio académica y administrativa.</p>
-      <p><a href="https://cem-iota.vercel.app">🔗 Ver demo</a> · <a href="https://github.com/Anthony-diaz-y/cem-client-deploy">Código</a></p>
-      <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-      <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
-      <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/Anthony-diaz-y/cra-desk"><img src="./assets/projects/cra-desk.svg" width="49%" alt="CRA Desk — SaaS de cumplimiento del EU Cyber Resilience Act" /></a>
+  <a href="https://github.com/Anthony-diaz-y/vigia"><img src="./assets/projects/vigia.svg" width="49%" alt="Vigía — pronóstico de vigilancia epidemiológica" /></a>
+</p>
+<p align="center">
+  <a href="https://www.inkari.shop/"><img src="./assets/projects/inkari.svg" width="49%" alt="Inkari Café — e-commerce en producción" /></a>
+  <a href="https://cem-iota.vercel.app"><img src="./assets/projects/cem.svg" width="49%" alt="CEM eLearning — plataforma de cursos" /></a>
+</p>
 
 <details>
-  <summary><b>Más proyectos</b></summary>
+  <summary><b>Más proyectos →</b></summary>
   <br />
 
-| Proyecto | Descripción | Stack |
-|---|---|---|
-| [ISO 9001 · Banco de práctica](https://iso-9001-eta.vercel.app) | App de práctica con 100 casos de ISO 9001:2015, feedback inmediato y desempeño por bloque | Next.js · TypeScript |
-| [Portafolio](https://anthonydiaz-dev.vercel.app) | Mi portafolio personal con casos de estudio | Next.js · TypeScript |
-| [Nest GraphQL](https://github.com/Anthony-diaz-y/nest-graphql) | API GraphQL con NestJS | NestJS · GraphQL |
-| [Teslo Shop API](https://github.com/Anthony-diaz-y/nest-teslo-shop) | API REST de e-commerce con autenticación JWT | NestJS · PostgreSQL · Docker |
+| Proyecto | Qué resuelve | Stack |
+|:--|:--|:--|
+| [**ISO 9001 · Banco de práctica**](https://iso-9001-eta.vercel.app) | 100 casos de ISO 9001:2015 con feedback inmediato y desempeño por bloque | `Next.js` `TypeScript` |
+| [**Portafolio**](https://anthonydiaz-dev.vercel.app) | Portafolio personal con casos de estudio | `Next.js` `TypeScript` |
+| [**Nest GraphQL**](https://github.com/Anthony-diaz-y/nest-graphql) | API GraphQL con NestJS | `NestJS` `GraphQL` |
+| [**Teslo Shop API**](https://github.com/Anthony-diaz-y/nest-teslo-shop) | API REST de e-commerce con autenticación JWT | `NestJS` `PostgreSQL` `Docker` |
 
 </details>
 
 ## 💼 Experiencia
 
-| Rol | Empresa | Periodo |
-|---|---|---|
-| **Desarrollador Full Stack** · Gestión de Patrimonios, Abonos Bancarios, Emisiones | Grupo CORIL | Abr 2026 – Actualidad |
-| **Desarrollador Frontend** · Intranet Corporativa | Grupo CORIL | Ene 2026 – Abr 2026 |
-| **Desarrollador Full Stack** | CEM eLearning | Dic 2025 – Abr 2026 |
-| **Gestor de Base de Datos y Mejora Continua** | Comparapet | Oct 2025 – Dic 2025 |
-| **Pasante de Desarrollo Full Stack** | OpenLab | Feb 2024 – Dic 2025 |
-
-> 🎓 Ingeniería Industrial — Universidad Privada del Norte · Gestión de Sistemas de Información — Zegel
+<p align="center">
+  <img src="./assets/experience.svg" width="100%" alt="Experiencia: Grupo CORIL (Full Stack — Patrimonios, Abonos Bancarios, Emisiones; Frontend — Intranet), CEM eLearning, Comparapet y OpenLab. Formación: Ingeniería Industrial (UPN) y Gestión de Sistemas de Información (Zegel)." />
+</p>
 
 ## 📊 Actividad
 
