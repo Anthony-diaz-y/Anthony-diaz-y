@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Anthony Díaz — Full Stack Developer">
+  <style>
+      .h{font:600 22px 'Segoe UI',Inter,-apple-system,Helvetica,Arial,sans-serif;fill:#e6edf3;letter-spacing:-0.3px}
+      .p{font:400 13px 'Segoe UI',Inter,-apple-system,Helvetica,Arial,sans-serif;fill:#8b949e}
+      .m{font:400 11px 'Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace;fill:#6e7681}
+      .ms{font:500 11px 'Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace;fill:#c9d1d9}
+      .lbl{font:500 11px 'Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace;fill:#c9d1d9}
+      .pulse{animation:pulse 2.4s ease-in-out infinite}
+      @keyframes pulse{50%{opacity:.3}}
+      .code{font:400 14.5px 'Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace}
+      .cursor{animation:blink 1.1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+  </style>
+  <rect x="0.5" y="0.5" width="1199" height="259" rx="12" fill="#0d1117" stroke="#30363d"/>
+
+  <text x="64" y="92" font-family="'Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="14" letter-spacing="3" fill="#6e7681">FULL STACK DEVELOPER</text>
+  <text x="62" y="154" font-family="'Segoe UI',Inter,-apple-system,Helvetica,Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="-1.2" fill="#e6edf3">Anthony Díaz</text>
+  <text x="64" y="194" font-family="'Segoe UI',Inter,-apple-system,Helvetica,Arial,sans-serif" font-size="18" fill="#8b949e">Del modelo de datos a una interfaz clara · Lima, Perú</text>
+  <g transform="translate(772 35)">
+    <rect width="372" height="190" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="22" cy="22" r="5" fill="#30363d"/><circle cx="40" cy="22" r="5" fill="#30363d"/><circle cx="58" cy="22" r="5" fill="#30363d"/>
+    <text x="24" y="64" class="code"><tspan fill="#8b949e">const</tspan><tspan fill="#e6edf3"> anthony = {</tspan></text><text x="44" y="90" class="code"><tspan fill="#c9d1d9">stack</tspan><tspan fill="#6e7681">: [</tspan><tspan fill="#a5b1bd">"Next.js"</tspan><tspan fill="#6e7681">, </tspan><tspan fill="#a5b1bd">"NestJS"</tspan><tspan fill="#6e7681">],</tspan></text><text x="44" y="116" class="code"><tspan fill="#c9d1d9">data</tspan><tspan fill="#6e7681">: </tspan><tspan fill="#a5b1bd">"PostgreSQL"</tspan><tspan fill="#6e7681">,</tspan></text><text x="44" y="142" class="code"><tspan fill="#c9d1d9">learning</tspan><tspan fill="#6e7681">: [</tspan><tspan fill="#a5b1bd">"Java"</tspan><tspan fill="#6e7681">, </tspan><tspan fill="#a5b1bd">"Go"</tspan><tspan fill="#6e7681">],</tspan></text><text x="24" y="166" class="code"><tspan fill="#e6edf3">};</tspan><tspan class="cursor" fill="#3fb950"> ▍</tspan></text>
+  </g>
+</svg>

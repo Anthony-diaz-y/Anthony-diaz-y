@@ -1,22 +1,22 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Anthony Díaz — Full Stack Developer" width="100%" />
+  <img src="./assets/banner.svg" alt="Anthony Díaz — Full Stack Developer" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://anthonydiaz-dev.vercel.app"><img src="https://img.shields.io/badge/Portafolio-anthonydiaz--dev-7c9cff?style=for-the-badge&logo=vercel&logoColor=white" alt="Portafolio" /></a>
-  <a href="https://www.linkedin.com/in/anthony-daniel-diaz-yacsahuanga-2408b3399/"><img src="https://img.shields.io/badge/LinkedIn-Conectemos-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:anthony.diaz.yacsahuanga@gmail.com"><img src="https://img.shields.io/badge/Email-Escríbeme-2dd4bf?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://anthonydiaz-dev.vercel.app"><img src="https://img.shields.io/badge/Portafolio-anthonydiaz--dev-21262d?style=for-the-badge&labelColor=0d1117&logo=vercel&logoColor=white" alt="Portafolio" /></a>
+  <a href="https://www.linkedin.com/in/anthony-daniel-diaz-yacsahuanga-2408b3399/"><img src="https://img.shields.io/badge/LinkedIn-Conectemos-21262d?style=for-the-badge&labelColor=0d1117&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:anthony.diaz.yacsahuanga@gmail.com"><img src="https://img.shields.io/badge/Email-Escríbeme-21262d?style=for-the-badge&labelColor=0d1117&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/📍_Lima,_Perú-111a33?style=flat-square" alt="Lima, Perú" />
-  <img src="https://img.shields.io/badge/Disponible_para_nuevas_oportunidades-28c840?style=flat-square" alt="Disponible" />
-  <img src="https://img.shields.io/badge/Remoto_·_Híbrido-a78bfa?style=flat-square" alt="Remoto o híbrido" />
+  <img src="https://img.shields.io/badge/Lima,_Perú-21262d?style=flat-square" alt="Lima, Perú" />
+  <img src="https://img.shields.io/badge/●_Disponible_para_nuevas_oportunidades-238636?style=flat-square" alt="Disponible" />
+  <img src="https://img.shields.io/badge/Remoto_·_Híbrido-21262d?style=flat-square" alt="Remoto o híbrido" />
 </p>
 
 ---
 
-## 👋 Sobre mí
+## Sobre mí
 
 Soy **Anthony Daniel Díaz Yacsahuanga**, desarrollador **full stack** con experiencia construyendo módulos corporativos, plataformas académicas y productos SaaS **de punta a punta**: desde el modelo de datos y la API hasta una interfaz clara y responsive.
 
@@ -27,7 +27,7 @@ Vengo de la **Ingeniería Industrial**, así que pienso en procesos: entiendo el
 - 🗄️ Me gusta optimizar datos: una consulta mía **duplicó la velocidad** de búsqueda de productos en PostgreSQL
 - 🌱 Ahora mismo aprendo **Java (Spring Boot)** y **Go** construyendo [CRA Desk](https://github.com/Anthony-diaz-y/cra-desk)
 
-## 🛠️ Stack tecnológico
+## Stack tecnológico
 
 <table>
   <tr>
@@ -44,19 +44,19 @@ Vengo de la **Ingeniería Industrial**, así que pienso en procesos: entiendo el
   </tr>
 </table>
 
-## 🚀 Proyectos destacados
+## Proyectos destacados
 
 <p align="center">
-  <a href="https://github.com/Anthony-diaz-y/cra-desk"><img src="./assets/projects/cra-desk.svg" width="49%" alt="CRA Desk — SaaS de cumplimiento del EU Cyber Resilience Act" /></a>
-  <a href="https://github.com/Anthony-diaz-y/vigia"><img src="./assets/projects/vigia.svg" width="49%" alt="Vigía — pronóstico de vigilancia epidemiológica" /></a>
+  <a href="https://github.com/Anthony-diaz-y/cra-desk"><img src="./assets/card-cra-desk.svg" width="49%" alt="CRA Desk — SaaS de cumplimiento del EU Cyber Resilience Act" /></a>
+  <a href="https://github.com/Anthony-diaz-y/vigia"><img src="./assets/card-vigia.svg" width="49%" alt="Vigía — pronóstico de vigilancia epidemiológica" /></a>
 </p>
 <p align="center">
-  <a href="https://www.inkari.shop/"><img src="./assets/projects/inkari.svg" width="49%" alt="Inkari Café — e-commerce en producción" /></a>
-  <a href="https://cem-iota.vercel.app"><img src="./assets/projects/cem.svg" width="49%" alt="CEM eLearning — plataforma de cursos" /></a>
+  <a href="https://www.inkari.shop/"><img src="./assets/card-inkari.svg" width="49%" alt="Inkari Café — e-commerce en producción" /></a>
+  <a href="https://cem-iota.vercel.app"><img src="./assets/card-cem.svg" width="49%" alt="CEM eLearning — plataforma de cursos" /></a>
 </p>
 
 <details>
-  <summary><b>Más proyectos →</b></summary>
+  <summary>Más proyectos</summary>
   <br />
 
 | Proyecto | Qué resuelve | Stack |
@@ -68,13 +68,13 @@ Vengo de la **Ingeniería Industrial**, así que pienso en procesos: entiendo el
 
 </details>
 
-## 💼 Experiencia
+## Experiencia
 
 <p align="center">
-  <img src="./assets/experience.svg" width="100%" alt="Experiencia: Grupo CORIL (Full Stack — Patrimonios, Abonos Bancarios, Emisiones; Frontend — Intranet), CEM eLearning, Comparapet y OpenLab. Formación: Ingeniería Industrial (UPN) y Gestión de Sistemas de Información (Zegel)." />
+  <img src="./assets/timeline.svg" width="100%" alt="Experiencia: Grupo CORIL (Full Stack — Patrimonios, Abonos Bancarios, Emisiones; Frontend — Intranet), CEM eLearning, Comparapet y OpenLab. Formación: Ingeniería Industrial (UPN) y Gestión de Sistemas de Información (Zegel)." />
 </p>
 
-## 📊 Actividad
+## Actividad
 
 <p align="center">
   <picture>
