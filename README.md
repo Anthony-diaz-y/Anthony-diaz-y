@@ -55,33 +55,10 @@ Vengo de la **Ingeniería Industrial**, así que pienso en procesos: entiendo el
   <a href="https://cem-iota.vercel.app"><img src="./assets/card-cem.svg" width="49%" alt="CEM eLearning — plataforma de cursos" /></a>
 </p>
 
-<details>
-  <summary>Más proyectos</summary>
-  <br />
-
-| Proyecto | Qué resuelve | Stack |
-|:--|:--|:--|
-| [**ISO 9001 · Banco de práctica**](https://iso-9001-eta.vercel.app) | 100 casos de ISO 9001:2015 con feedback inmediato y desempeño por bloque | `Next.js` `TypeScript` |
-| [**Portafolio**](https://anthonydiaz-dev.vercel.app) | Portafolio personal con casos de estudio | `Next.js` `TypeScript` |
-| [**Nest GraphQL**](https://github.com/Anthony-diaz-y/nest-graphql) | API GraphQL con NestJS | `NestJS` `GraphQL` |
-| [**Teslo Shop API**](https://github.com/Anthony-diaz-y/nest-teslo-shop) | API REST de e-commerce con autenticación JWT | `NestJS` `PostgreSQL` `Docker` |
-
-</details>
-
 ## Experiencia
 
 <p align="center">
   <img src="./assets/timeline.svg" width="100%" alt="Experiencia: Grupo CORIL (Full Stack — Patrimonios, Abonos Bancarios, Emisiones; Frontend — Intranet), CEM eLearning, Comparapet y OpenLab. Formación: Ingeniería Industrial (UPN) y Gestión de Sistemas de Información (Zegel)." />
-</p>
-
-## Actividad
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anthony-diaz-y/Anthony-diaz-y/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anthony-diaz-y/Anthony-diaz-y/output/github-snake.svg" />
-    <img alt="Contribuciones" src="https://raw.githubusercontent.com/Anthony-diaz-y/Anthony-diaz-y/output/github-snake.svg" />
-  </picture>
 </p>
 
 ---
